@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo dos Dinossauros - Arquivo Paleontológico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <div class="header-container">
+            <h1>Dino<span>Pédia</span></h1>
+            <p>Registros arqueológicos e fósseis dos gigantes da Terra</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="filter-section">
+            <h2>Classificação dos Gigantes</h2>
+            <p>Ordene os dinossauros pelo tamanho para ver o ranque:</p>
+            <div class="buttons-container">
+                <button id="btn-maior" class="btn active">Maior para o Menor</button>
+                <button id="btn-menor" class="btn">Menor para o Maior</button>
+            </div>
+        </section>
+
+        <section id="dino-grid" class="dino-grid">
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 DinoPédia - Conhecimento baseado em evidências científicas e fósseis.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
